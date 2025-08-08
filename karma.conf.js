@@ -23,7 +23,7 @@ const karmaDebugSettings = {
   },
 };
 
-export default function configKarma(karma: Object) {
+export default function configKarma(karma) {
   const karmaConfig = getKarmaConfig(karma, {
     basePath: __dirname,
     testDir: "test",
